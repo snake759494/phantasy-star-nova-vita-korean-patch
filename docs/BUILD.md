@@ -24,8 +24,8 @@ python tools/movie.py
 ## 배포 파일
 
 ```powershell
-xdelta3 -e -0 -S none -A -s work\orig\NOVA_FileList_Vita.cpk out\NOVA_FileList_Vita.cpk Phantasy_Star_Nova_Vita_KO_v1.0_main.xdelta
-xdelta3 -e -0 -S none -A -s work\orig\NOVA_FileList_Vita_movie.cpk out\NOVA_FileList_Vita_movie.cpk Phantasy_Star_Nova_Vita_KO_v1.0_movie.xdelta
+xdelta3 -e -0 -S none -A -s work\orig\NOVA_FileList_Vita.cpk out\NOVA_FileList_Vita.cpk Phantasy_Star_Nova_Vita_KO_v1.0.1_main.xdelta
+xdelta3 -e -0 -S none -A -s work\orig\NOVA_FileList_Vita_movie.cpk out\NOVA_FileList_Vita_movie.cpk Phantasy_Star_Nova_Vita_KO_v1.0.1_movie.xdelta
 ```
 
 ## 번역 수정

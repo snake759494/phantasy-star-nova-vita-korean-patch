@@ -1,6 +1,6 @@
 # 판타지 스타 노바 PS Vita 한글패치
 
-PS Vita 일본판 **판타지 스타 노바 (ファンタシースター ノヴァ, PCSG00351)**용 비공식 한국어 패치입니다. 스토리 대사·메뉴·아이템·장비·스킬·퀘스트·튜토리얼·상점까지 게임 안 일본어 메시지 **21,167개 전체**를 한국어로 직접 번역했습니다. 타이틀 한글 부제, 메뉴·튜토리얼 그림 글자 **83장**, 이벤트 캡션 글자판, 오프닝 등 동영상 **8개**의 자막(**141문장**)도 한글로 바꿨습니다. 현재 배포판은 **v1.0 (2026-11-18)**입니다.
+PS Vita 일본판 **판타지 스타 노바 (ファンタシースター ノヴァ, PCSG00351)**용 비공식 한국어 패치입니다. 스토리 대사·메뉴·아이템·장비·스킬·퀘스트·튜토리얼·상점까지 게임 안 일본어 메시지 **21,167개 전체**를 한국어로 직접 번역했습니다. 타이틀 한글 부제, 메뉴·튜토리얼 그림 글자 **83장**, 이벤트 캡션 글자판, 오프닝 등 동영상 **8개**의 자막(**141문장**)도 한글로 바꿨습니다. 현재 배포판은 **v1.0.1 (2026-11-18)**입니다.
 
 [패치 다운로드](https://github.com/snake759494/phantasy-star-nova-vita-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [용어집](docs/GLOSSARY.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
@@ -18,10 +18,10 @@ PS Vita 일본판 **판타지 스타 노바 (ファンタシースター ノヴ�
 | --- | --- | --- | --- |
 | 원본 `NOVA_FileList_Vita.cpk` | 2,834,095,024 B | `cc10190d7c45c0ea0159142b1e5f98bf` | `ad85c330c3258b0f18f57dcf77736f9fbea89c40b66dfef3fbb5c4daeff77e7a` |
 | 원본 `NOVA_FileList_Vita_movie.cpk` | 395,112,448 B | `60002c4ef23b32f28f7b26e460099e5e` | `b006fcbf06008c1271b47b3999798e042243c6c99de570a6e069188ec971a01e` |
-| 결과 `NOVA_FileList_Vita.cpk` | 3,369,310,104 B | `6b19dd8d9edec391a7376855b9e7238c` | `be835bb812619943adacfde56e781f78fcec5456d7343ce3d50152ce6a03cf92` |
+| 결과 `NOVA_FileList_Vita.cpk` | 3,369,310,104 B | `d4d1a7d863eaa25f07979d989000c9df` | `f36e1c28cbee8b1214fdb69a2233a5030d8bf0b7dfd13ac4d11aad4f92b7de9d` |
 | 결과 `NOVA_FileList_Vita_movie.cpk` | 395,112,448 B | `ae900ebab8aa1c916cd89a802a3bb00e` | `0eeeee9fcc1cbac72f6dc18929d28ac165e560eb41053dc4a775ba1764d808c0` |
-| `Phantasy_Star_Nova_Vita_KO_v1.0_main.xdelta` | 231,962,680 B | — | `8ed15fbca5e795e14871118e8775982193c23a4ec85ed62dd44634147fcb3955` |
-| `Phantasy_Star_Nova_Vita_KO_v1.0_movie.xdelta` | 192,230,175 B | — | `8962d6306bf1da7c85462f11ca3ccc77b594328908a533747e55319948b98b09` |
+| `Phantasy_Star_Nova_Vita_KO_v1.0.1_main.xdelta` | 224,635,541 B | — | `0282e034fc2998a4b2b12f4cc893cb86e73ca5ef4584f9c8eacfafa6e8005ffd` |
+| `Phantasy_Star_Nova_Vita_KO_v1.0.1_movie.xdelta` | 192,230,175 B | — | `8962d6306bf1da7c85462f11ca3ccc77b594328908a533747e55319948b98b09` |
 
 SHA-1과 xdelta의 MD5는 [release_manifest.json](release_manifest.json)에 있습니다. 원본 게임 파일은 사용자가 직접 준비해야 합니다. `eboot.bin`과 그 밖의 파일은 바꾸지 않습니다.
 
@@ -48,8 +48,8 @@ xdelta는 호환성을 위해 압축·2차 압축·파일 경로 헤더 없이 �
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -B 1073741824 -s '.\NOVA_FileList_Vita.cpk' '.\Phantasy_Star_Nova_Vita_KO_v1.0_main.xdelta' '.\ko\NOVA_FileList_Vita.cpk'
-.\xdelta3.exe -d -B 1073741824 -s '.\NOVA_FileList_Vita_movie.cpk' '.\Phantasy_Star_Nova_Vita_KO_v1.0_movie.xdelta' '.\ko\NOVA_FileList_Vita_movie.cpk'
+.\xdelta3.exe -d -B 1073741824 -s '.\NOVA_FileList_Vita.cpk' '.\Phantasy_Star_Nova_Vita_KO_v1.0.1_main.xdelta' '.\ko\NOVA_FileList_Vita.cpk'
+.\xdelta3.exe -d -B 1073741824 -s '.\NOVA_FileList_Vita_movie.cpk' '.\Phantasy_Star_Nova_Vita_KO_v1.0.1_movie.xdelta' '.\ko\NOVA_FileList_Vita_movie.cpk'
 ```
 
 해시를 자동으로 검사하는 도구도 있습니다. Python 3와 xdelta3가 필요하며, 원본 CPK 2개와 xdelta 2개가 있는 폴더를 지정하면 결과를 출력 폴더에 만듭니다. 같은 이름의 출력 파일이 이미 있으면 덮어쓰지 않습니다.

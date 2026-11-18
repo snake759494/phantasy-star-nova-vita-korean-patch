@@ -1,5 +1,5 @@
 {
- "version": "v1.0",
+ "version": "v1.0.1",
  "date": "2026-11-18",
  "game": "Phantasy Star Nova (Japan) / PCSG00351 / PS Vita / APP_VER 01.00",
  "target_dir": "ux0:app/PCSG00351/ (복호화된 게임 폴더 안의 파일)",
@@ -7,21 +7,21 @@
  "files": [
   {
    "target": "NOVA_FileList_Vita.cpk",
-   "asset": "Phantasy_Star_Nova_Vita_KO_v1.0_main.xdelta",
-   "asset_size": 231962680,
-   "asset_sha256": "8ed15fbca5e795e14871118e8775982193c23a4ec85ed62dd44634147fcb3955",
+   "asset": "Phantasy_Star_Nova_Vita_KO_v1.0.1_main.xdelta",
+   "asset_size": 224635541,
+   "asset_sha256": "0282e034fc2998a4b2b12f4cc893cb86e73ca5ef4584f9c8eacfafa6e8005ffd",
    "source_size": 2834095024,
    "source_md5": "cc10190d7c45c0ea0159142b1e5f98bf",
    "source_sha1": "4ad6f486c9feffb706c9434285bafef7f8aa0f1b",
    "source_sha256": "ad85c330c3258b0f18f57dcf77736f9fbea89c40b66dfef3fbb5c4daeff77e7a",
    "output_size": 3369310104,
-   "output_md5": "6b19dd8d9edec391a7376855b9e7238c",
-   "output_sha1": "461990d956c099afe39959416f4a50a96190ce6d",
-   "output_sha256": "be835bb812619943adacfde56e781f78fcec5456d7343ce3d50152ce6a03cf92"
+   "output_md5": "d4d1a7d863eaa25f07979d989000c9df",
+   "output_sha1": "78c7338529fc20d61b81138309a3cc29a49b0aad",
+   "output_sha256": "f36e1c28cbee8b1214fdb69a2233a5030d8bf0b7dfd13ac4d11aad4f92b7de9d"
   },
   {
    "target": "NOVA_FileList_Vita_movie.cpk",
-   "asset": "Phantasy_Star_Nova_Vita_KO_v1.0_movie.xdelta",
+   "asset": "Phantasy_Star_Nova_Vita_KO_v1.0.1_movie.xdelta",
    "asset_size": 192230175,
    "asset_sha256": "8962d6306bf1da7c85462f11ca3ccc77b594328908a533747e55319948b98b09",
    "source_size": 395112448,

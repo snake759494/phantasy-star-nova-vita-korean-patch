@@ -5,7 +5,7 @@ from dxt import _blockpos
 from basicmap import B
 from rmd import enc7,LBASE,NBASIC
 D=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.join(D,'..')
-FONT=os.path.join(ROOT,'NanumSquareNeo-cBd.ttf'); FSIZE=int(os.environ.get('KFSIZE','21'))
+FONT=os.path.join(ROOT,'NanumSquareNeo-cBd.ttf'); FSIZE=int(os.environ.get('KFSIZE','19'))
 CELL=21; STRIDE=23; ADV=int(os.environ.get('KADV','20'))
 # basic char -> index (prefer first = halfwidth for ascii)
 BI={}
