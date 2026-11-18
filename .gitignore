@@ -1,0 +1,35 @@
+# 게임 원본·산출물 (배포하지 않음)
+*.cpk
+*.pkg
+*.xdelta
+*.bin
+*.rif
+*.aif
+*.rmd
+*.mp4
+emu/
+work/
+out/
+dist/
+shots/
+
+# 글꼴·외부 실행 파일·이미지
+fonts/
+*.ttf
+*.otf
+*.exe
+*.dll
+*.png
+*.jpg
+*.npy
+*.zip
+*.7z
+
+# 작업 기록
+*.log
+tools/emu.pid
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
